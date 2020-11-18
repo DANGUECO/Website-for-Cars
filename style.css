@@ -1,0 +1,139 @@
+				/* title code */
+				#ccc{
+					font-size: 400%;
+					font-style: courier;
+					color: #C0C0C0;
+					font-weight: bold;		
+					text-align: center;
+					margin-top: 0px
+				}
+				/* more title code */
+				
+				#ddd{
+					font-size: 400%;
+					font-style: courier;
+					color: #C0C0C0;
+					font-weight: bold;
+					text-align: center;
+					margin-top: 50px	
+				}
+				 /*Even more title code */
+				span{
+					color: white;
+					font-weight: bold;
+				}
+				
+				/*boxes with info code */
+				.box1{
+					font-style: courier;
+					background-color: black;
+					font-size: 150%;
+					color: white;
+					padding: 20px;
+					margin-top: 600px;
+					margin-bottom: 10px;
+					margin-left: 400px;
+					margin-right: 400px;
+					text-align: center;
+				} 
+				/* boxes with style */
+				#pp{
+					font-family: courier;
+				}
+				
+				/*Background image for all webpages */
+				
+				body{
+					background-image:url("car2.jpg");
+					background-size:100%;
+					background-repeat: no-repeat;
+					background-attachment: fixed;	
+				}
+				
+				/* Need to leave table word alone*/
+				table{
+					font-family: arial, sans-serif;
+					border-collapse: collapse;
+					width: 50%;
+					margin-bottom: 1200px;
+					margin-left:400px; 
+					text-color: white;
+				}
+
+				td, th {
+					border: 1px solid #dddddd;
+					text-align: left;
+					padding: 8px;
+					font-style: courier;
+				}
+				
+
+				tr:nth-child(even) {
+					background-color: #dddddd;
+				}
+                
+				
+				tr:nth-child(odd) {
+					background-color: #dddddd;
+				}
+				
+				.boxfaq1{
+					background-color: black;
+					font-size: 150%;
+					color: white;
+					padding: 20px;
+					margin-top: 100px;
+					margin-bottom: 10px;
+					margin-left: 400px;
+					margin-right: 400px;
+					text-align: center;
+				}  
+
+#navigation {
+	list-style-type: none;
+	padding: 0px;
+	background-color: #333;
+	overflow: hidden;
+	border: 1px solid #555;
+	
+	
+}
+
+#navigation a{
+	display: block;
+	color: #DCDCDC;
+	width: 290px;
+	text-decoration: none;
+	padding: 30px 90px;
+	font-family: Arial;
+	text-align: center;
+	font-size: 17px
+}
+
+#navigation li{
+	width: 24%;
+	display: inline;
+	float: left;
+	border-right:1px solid #555;
+}
+
+#navigation a:link{
+	color: #black;
+	background-color:black;
+}
+
+#navigation a:visited{
+}
+
+#navigation a:hover{
+	background-color:	#696969;
+}
+
+#navigation a:active{
+	background-color: #4CAF50;
+}
+
+
+
+
+        
